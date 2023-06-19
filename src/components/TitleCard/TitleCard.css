@@ -1,0 +1,54 @@
+
+
+#my-name-is {
+    font-size: 80px;
+    position: relative;
+    left: 100px;
+}
+
+#introduction {
+    font-size: 150px;
+}
+
+.title-text{
+    color: #EF8354;
+    animation-name: popout;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    position: relative;
+    top: 0px;
+    transition: ease-in-out 100ms;
+    text-shadow: none;
+}
+
+
+
+
+
+#hi-text {
+    font-size: 300px;
+}
+
+
+
+@keyframes popout {
+    0% {
+        bottom: 20px;
+        text-shadow: .5px .5px #4F5D75;
+    }
+    100% {
+        bottom: 0px;
+        text-shadow: 6px 6px #4F5D75;
+    }
+}
+
+.title-text:hover {
+    transition: ease-in-out 100ms;
+    color: #F1C5A0;
+    top: -20px;
+}
+
+
+
+
+
