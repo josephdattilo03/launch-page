@@ -1,3 +1,36 @@
 #title-card {
   text-align: center;
+  margin: auto;
+  margin-top: 14vh;
+}
+
+#attributes-loop {
+  width: 100%;
+  height: 25vh;
+  margin-top: 7vh;
+  text-align: center;
+}
+
+#title {
+  background-color: #EF8354;
+}
+
+.spacer {
+  aspect-ratio: 900/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#transition1 {
+  background-image: url("assets/wave-haikei.svg");
+}
+
+#student {
+  background-color: #474A48;
+  width: 100%;
+  height: max-content;
+  margin-top: -5vh;
 }

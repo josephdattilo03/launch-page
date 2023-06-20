@@ -1,32 +1,29 @@
 
+#hi-text {
+    font-size: 20vw;
+}
 
 #my-name-is {
-    font-size: 80px;
+    font-size: 5vw;
     position: relative;
-    left: 100px;
+    left: 12vw;
 }
 
 #introduction {
-    font-size: 150px;
+    font-size: 10vw;
 }
 
 .title-text{
+    user-select: none;
     color: #EF8354;
     animation-name: popout;
     animation-fill-mode: forwards;
     animation-duration: 1s;
     position: relative;
-    top: 0px;
+    top: 0;
+    line-height: 15vh;
     transition: ease-in-out 100ms;
     text-shadow: none;
-}
-
-
-
-
-
-#hi-text {
-    font-size: 300px;
 }
 
 
@@ -34,18 +31,18 @@
 @keyframes popout {
     0% {
         bottom: 20px;
-        text-shadow: .5px .5px #4F5D75;
+        text-shadow: .05vw .05vw #4F5D75;
     }
     100% {
         bottom: 0px;
-        text-shadow: 6px 6px #4F5D75;
+        text-shadow: .4vw .4vw #4F5D75;
     }
 }
 
 .title-text:hover {
     transition: ease-in-out 100ms;
     color: #F1C5A0;
-    top: -20px;
+    top: -3vh;
 }
 
 
