@@ -18,7 +18,8 @@ function App() {
       <section id="student">
         <AboutMe/>
       </section>
-      <section id="contact-me"></section>
+      <div id="transition2" class="spacer"></div>
+      <section id="projects"></section>
     </body>
   )
 }

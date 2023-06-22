@@ -28,6 +28,10 @@
   background-image: url("assets/wave-haikei.svg");
 }
 
+#transition2 {
+  background-image: url("assets/wave2.svg");
+}
+
 #student {
   background-color: #474A48;
   width: 100%;
