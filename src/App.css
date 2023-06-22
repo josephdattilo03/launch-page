@@ -40,3 +40,12 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
+
+#contact {
+  background-color: #88A096;
+  width: 100%;
+  height: max-content;
+  margin-top: -40vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}

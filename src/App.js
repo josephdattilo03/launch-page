@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import TitleCard from './components/TitleCard/TitleCard';
 import AttributesLoop from './components/AttributesLoop/AttributesLoop';
 import AboutMe from './components/AboutMe/AboutMe';
+import ContactCard from './components/ContactCard/ContactCard';
 
 
 
@@ -19,7 +20,9 @@ function App() {
         <AboutMe/>
       </section>
       <div id="transition2" class="spacer"></div>
-      <section id="projects"></section>
+      <section id="contact">
+        <ContactCard/>
+      </section>
     </body>
   )
 }
