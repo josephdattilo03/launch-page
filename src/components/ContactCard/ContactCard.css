@@ -72,3 +72,61 @@ textarea, textarea:focus, textarea::placeholder {
     border-radius: 5px;
 }
 
+#social-bar {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: -9vw;
+    margin-right: 5vw;
+}
+
+a{
+    margin-bottom: 1vh;
+    color: #F3EAAF;
+    box-shadow: 3px 5px 8px teal inset;
+    animation-name: from-outset;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+a:hover{
+    box-shadow: 3px 5px 8px teal inset;
+    animation-name: from-inset;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+.social {
+    width: 3vw;
+    height: 3vw;
+}
+
+@keyframes from-inset {
+    0%{
+
+    }
+    50%{
+        box-shadow: none;
+    }
+    100% {
+        transform: translate(-.5vw, -.5vw);
+        box-shadow: 3px 5px 8px teal;
+    }
+    
+}
+
+@keyframes from-outset {
+    0% {
+        transform: translate(-.5vw, -.5vw);
+        box-shadow: 3px 5px 8px teal;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100%{
+        transform: none;
+        box-shadow: 3px 5px 8px teal inset;
+    }
+    
+}
+
