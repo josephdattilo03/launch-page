@@ -2,6 +2,7 @@ import './App.css';
 import { createRoot } from 'react-dom/client'
 import TitleCard from './components/TitleCard/TitleCard';
 import AttributesLoop from './components/AttributesLoop/AttributesLoop';
+import AboutMe from './components/AboutMe/AboutMe';
 
 
 
@@ -15,8 +16,9 @@ function App() {
       </section>
       <div id="transition1" class="spacer"></div>
       <section id="student">
-        <h1>Hi There</h1>
+        <AboutMe/>
       </section>
+      <section id="contact-me"></section>
     </body>
   )
 }

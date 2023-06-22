@@ -1,0 +1,70 @@
+
+#profile-wrapper {
+    margin-bottom: 5vh;
+}
+
+#profile-photo {
+    width: 21vw;
+    height: 21vw;
+}
+
+#taupe-box {
+    background-color: #96939B;
+    width: 30vw;
+    height: 30vw;
+}
+
+#celadon-box {
+    background-color: #B0E298;
+    width: 27vw;
+    height: 27vw;
+}
+
+#funny-ginger-box {
+    background-color: #F19A3E;
+    width: 24vw;
+    height: 24vw;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-text {
+    margin-bottom: 5vh;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    transition:ease-in-out 300ms;
+    font-size: 1vw;
+}
+
+.flip-panel {
+    background-color: #474A48;
+    text-align: left;
+    border: none;
+    padding: 2vw;
+    margin: c;
+    width: 50%;
+    transition:ease-in-out 300ms;
+}
+
+.flip-panel:hover {
+    transition:ease-in-out 300ms;
+    box-shadow:4px 5px 8px black inset;
+    transform: translateY(.5vh);
+}
+
+.p-box {
+    box-shadow: 3px 4px 8px black;
+    transition: ease-in-out 300ms;
+    transform: translate(-1vw,-1vw);
+}
+
+.p-box:hover {
+    transition: ease-in-out 300ms;
+    transform: translate(1.5vw,1.5vw);
+}

@@ -9,6 +9,10 @@ body {
   background-color: #EF8354;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
