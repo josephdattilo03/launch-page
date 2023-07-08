@@ -7,9 +7,6 @@ Aos.init()
 
 
 class ContactCard extends Component {
-    handleSubmit(event) {
-        
-    }
     render() {
         return(
             <div id="contact-wrap">
@@ -18,9 +15,13 @@ class ContactCard extends Component {
                     <a href="https://www.linkedin.com/in/joseph-dattilo-471436243/"><AiFillLinkedin className="social"/></a>
                     <a href="https://github.com/josephdattilo03"><AiFillGithub className="social"/></a>
                 </div>
-                <form onSubmit={this.handleSubmit} data-aos="fade-down" data-aos-delay="600">
+                <form data-aos="fade-down" data-aos-delay="600">
                     <input id="email-input" type="text" placeholder="Email"></input>
                     <textarea id="email-body" placeholder="Write something..."></textarea>
+                    <fieldset id="group">
+                        <input type="radio"  name="group" checked></input><span>Business Opportunity</span>
+                        <input type="radio" name="group"></input><spa>Questions?</spa>
+                    </fieldset>
                     <input id="send-btn" type="submit" value="Send"></input>
                 </form>
             </div>
