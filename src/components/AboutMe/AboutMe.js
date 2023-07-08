@@ -4,13 +4,15 @@ import AOS from "aos"
 import "animate.css"
 import 'aos/dist/aos.css';
 import {default as profile} from "./IMG_1262.png"
+import ImageGallery from 'react-image-gallery'
 AOS.init()
 
 
+const images = [
+    {original: ""}
+]
+
 class AboutMe extends Component {
-
-
-
     render() {
         return(
             <div>
@@ -24,25 +26,15 @@ class AboutMe extends Component {
                     </div>
                 </div>
                 <div data-aos = "fade-right" class="center">
-                    <div id="flex-images">
-                        <img src={require("./DSC04048.jpeg")}/>
-                        <img src={require("./ebb12ca1-d00b-432c-b6a7-f2c8962a05fc.jpg")}/>
-                        <img src={require("./IMG_0912.jpeg")}/>
-                        <img src={require("./IMG_1895.JPG")}/>
-                        <img src={require("./IMG_2348.JPG")}/>
-                        <img src={require("./IMG_2533.jpeg")}/>
-                        <img src={require("./IMG_2795.JPG")}/>
-                        <img src={require("./IMG_7831.jpeg")}/>
-                    </div>
-                    <button class="flip-panel">
-                        <p class="background-text">Hi! I'm Joseph Dattilo, an engineer and musician at the <span>University of Pennsylvania</span>. I grew up in Nashville and attended an all boys high school where I discovered my true passion for coding, music, rowing, language, and more.
-                        Now I've officially started my college journey and completed my freshman year. I like to say that college is full of the best kind of chaos, and this was certainly the case for me as I got involved in software engineering, theatre arts, and entrepreneurship.
-                        I found my home away from home when I joined the Mask and Wig theatre arts troop as the house drummer. Its hard to not become fast friends with the people that you work ten to twenty hours a week with, and the company has helped me step out of my comfort zone and become more confident as a person.</p>
-                        <p class="background-text">I am so excited to study here in South Africa. Not only will it be amazing to enjoy the nature and explore the most beautiful parts of Cape Town, but this city is a major industry disruptor in software. I'll be able to work alongside companies that are making an impact
-                        on the world and get practical experience with the help from professionals. I am especially excited about surfing. My friend has told me all about his experiences surfing in LA and I think it would be awesome to come home with an introduction to that skill.
+                    <div class="flip-panel">
+                        <p class="background-text">Hi! I'm Joseph Dattilo, an engineer and musician at the <span>University of Pennsylvania</span>. Born and raised in Nashville Tennessee, I've been fortunate enough to pursue my passions in drums, rowing, chinese, and programming through my high school and college journeys.
+                        At Penn, I am a backend engineer for <a href="https://pennapps.com/">PennApps</a> and the house drummer for the <a href="https://www.maskandwig.com/">Mask and Wig club</a>, which often makes my life quite chaotic. While school is a big commitment, I find comfort in the members of Mask and Wig, and on my weekends I split my time between social events and working on personal projects.
                         </p>
-                        <p class="center background-text"> try hovering your mouse over this text :)</p>
-                    </button>
+                        <p class="background-text">
+                            When I am not taking on new challenges, you can often find me watching YouTube videos on technology, mixology, and even comedy (usually right before bed after a busy day). I like to keep up on technological advancements, and recently get my daily news from the <a href="https://tldr.tech/">TL;DR</a> newsletter. As with most software engineers I am a caffeine addict, so I've been accumulating coffee drink recipes to start making drinks for my friends this upcoming year.
+                        </p>
+                        <p class="background-text">I am so excited for this internship and school year, and I hope that learning new skills abroad will open new doors as I continue my studies.</p>
+                    </div>
                 </div>
             </div>
         )
